@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from streamlit_option_menu import option_menu
 
-df = pd.read_csv("https://raw.githubusercontent.com/naelmelikechi/Application/main/grille_salaires.csv", sep=";")
+df = pd.read_csv("https://raw.githubusercontent.com/UserTestPlateformeProprete/ApplicationProprete/main/grille_salaires_proprete.csv", sep=";")
 
 def calculateur():
     st.title("Calculateur de salaires dans le cadre d'un contrat à temps partiel dans le domaine de la propreté")
